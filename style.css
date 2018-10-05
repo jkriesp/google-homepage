@@ -10,6 +10,7 @@ body {
     right: 0px;
     height: 233px;
     list-style-type: none;
+    overflow: hidden;
 
 }
 
