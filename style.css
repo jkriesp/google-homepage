@@ -1,0 +1,51 @@
+.mainview {
+    position: relative;
+}
+
+.navbar ul {
+    right: 0px;
+    height: 233px;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar li {
+    float: right;
+    padding: 15px 7px;
+    
+}
+
+#search {
+    margin: auto;
+    width: 50%;
+
+}
+
+#logo {
+    padding-top: 109px;
+}
+
+#logo, .search, #language {
+    margin: auto;
+    width: 50%;
+    text-align: -webkit-center;
+}
+
+#input_search {
+    width: 100%;
+}
+
+#bt_search, #bt_lucky {
+    height: 36px;
+    margin-top: 20px;
+    border: 0;
+    background-color: #f5f5f5;
+    border-radius: 2px;
+    font-weight: bold;
+    color: #757575;
+}
+
+#language a {
+    text-decoration: none;
+}
+
