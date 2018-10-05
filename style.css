@@ -1,3 +1,7 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .mainview {
     position: relative;
 }
@@ -6,7 +10,7 @@
     right: 0px;
     height: 233px;
     list-style-type: none;
-    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .navbar li {
@@ -33,6 +37,7 @@
 
 #input_search {
     width: 100%;
+    margin-bottom: 15px;
 }
 
 #bt_search, #bt_lucky {
@@ -43,9 +48,57 @@
     border-radius: 2px;
     font-weight: bold;
     color: #757575;
+    font-size: 13px;
+    padding: 0 16px;
+    margin: 11px 4px;
 }
 
-#language a {
+#language a, #language {
     text-decoration: none;
+    font-size: small;
+
 }
+
+#language a:visited {
+    color: blue;
+}
+
+.locationbar {
+
+    float: bottom;
+    
+}
+
+footer {
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+
+
+}
+
+footer ul {
+    border-top:1px solid #e4e4e4;
+    background: #f2f2f2;
+    color: #666;
+    overflow: hidden;
+    right: 0px;
+    list-style-type: none;
+    padding-bottom: 0px;
+    margin: 0px;
+
+}
+
+.locationbar {
+    color:rgba(0,0,0,.54);
+}
+
+footer li {
+    float: left;
+    padding: 15px 7px;
+    
+}
+
 
